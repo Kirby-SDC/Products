@@ -1,0 +1,145 @@
+[
+    {
+        "id": 37330,
+        "campus": "hr-rfe",
+        "name": "Waylon Slacks",
+        "slogan": "Neque fugiat laudantium minus est voluptatem assumenda ratione quo.",
+        "description": "Consequatur est corporis qui. Et repudiandae aut ut. Voluptatem et voluptatem modi et dolorum. Qui sint est quidem rerum aspernatur assumenda ut ad libero. Mollitia voluptates illo aliquam qui. Ex at dolores aut voluptas blanditiis a quia ut corporis.",
+        "category": "Slacks",
+        "default_price": "768.00",
+        "created_at": "2021-08-13T14:37:33.285Z",
+        "updated_at": "2021-08-13T14:37:33.285Z",
+        "features": [
+            {
+                "feature": "Stitching",
+                "value": "\"Cross Stitch\""
+            },
+            {
+                "feature": "Frame",
+                "value": "\"AllLight Composition Resin\""
+            },
+            {
+                "feature": "Fair Trade Certified",
+                "value": null
+            },
+            {
+                "feature": "Stitching",
+                "value": "\"Cross Stitch\""
+            }
+        ]
+    },
+    {
+        "id": 37955,
+        "campus": "hr-rfe",
+        "name": "Suzanne Backpack",
+        "slogan": "Suscipit dolorem vel provident voluptatibus perspiciatis a consequuntur.",
+        "description": "Voluptatem ea debitis eligendi sunt facilis rem qui non. Et laborum magnam ipsa voluptatem dolores dolor. Dolor ipsa temporibus voluptate velit dolores fugiat praesentium quae. Distinctio labore doloribus quis accusamus et et unde. Necessitatibus quod quidem esse sequi quas et odio dicta. Blanditiis qui voluptatum dolorem.",
+        "category": "Backpack",
+        "default_price": "124.00",
+        "created_at": "2021-08-13T14:37:33.285Z",
+        "updated_at": "2021-08-13T14:37:33.285Z",
+        "features": [
+            {
+                "feature": "Frame",
+                "value": "\"AllLight Composition Resin\""
+            },
+            {
+                "feature": "Lens",
+                "value": "\"Ultrasheen Basic\""
+            },
+            {
+                "feature": "Lifetime Guarantee",
+                "value": null
+            }
+        ]
+    },
+    {
+        "id": 37458,
+        "campus": "hr-rfe",
+        "name": "Lucie Romper",
+        "slogan": "Illum aperiam omnis esse ut quae velit ipsa.",
+        "description": "Blanditiis facilis provident quos quod sit quis dolorem dolorem. Id delectus facilis autem itaque. Quisquam est qui amet dolorem culpa facere. Est fugit quo facere laudantium nostrum corrupti maxime. Sit consectetur omnis quaerat ut.",
+        "category": "Romper",
+        "default_price": "157.00",
+        "created_at": "2021-08-13T14:37:33.285Z",
+        "updated_at": "2021-08-13T14:37:33.285Z",
+        "features": [
+            {
+                "feature": "Material",
+                "value": "\"FullSupport Hybrid Compound\""
+            },
+            {
+                "feature": "Buttons",
+                "value": "\"Brass\""
+            },
+            {
+                "feature": "Stitching",
+                "value": "\"Cross Stitch\""
+            }
+        ]
+    },
+    {
+        "id": 38296,
+        "campus": "hr-rfe",
+        "name": "Garfield Dress",
+        "slogan": "Voluptas ut aliquid a.",
+        "description": "Voluptas ratione dolor ut fugiat ea assumenda corporis consequatur eos. Ullam omnis similique voluptatibus sint vel alias dicta tenetur incidunt. Qui accusamus quisquam tempore molestiae. In et possimus nisi eum harum nulla. Sit repudiandae hic molestiae eos ut quia quae repudiandae error. Quos ea quia natus eaque cumque.",
+        "category": "Dress",
+        "default_price": "262.00",
+        "created_at": "2021-08-13T14:37:33.285Z",
+        "updated_at": "2021-08-13T14:37:33.285Z",
+        "features": [
+            {
+                "feature": "5 Year Warranty",
+                "value": null
+            },
+            {
+                "feature": "Fair Trade Certified",
+                "value": null
+            }
+        ]
+    },
+    {
+        "id": 38245,
+        "campus": "hr-rfe",
+        "name": "Clint 1000 Romper",
+        "slogan": "Saepe laboriosam repellendus laborum alias vitae aliquid.",
+        "description": "Dolor et perspiciatis sed omnis rerum reprehenderit aut. Quas quia enim excepturi ipsa neque et. Hic quis temporibus quia quos eum reiciendis. Ratione aperiam et. Deleniti rerum quo molestiae eveniet eum tempora odio tenetur. Quasi maxime fugit ut est quas.",
+        "category": "Romper",
+        "default_price": "839.00",
+        "created_at": "2021-08-13T14:37:33.285Z",
+        "updated_at": "2021-08-13T14:37:33.285Z",
+        "features": [
+            {
+                "feature": "5 Year Warranty",
+                "value": null
+            }
+        ]
+    },
+    {
+        "id": 37508,
+        "campus": "hr-rfe",
+        "name": "The Ryann Boots",
+        "slogan": "Aliquid veniam autem sequi iure deserunt dicta sint.",
+        "description": "Animi ipsam ut voluptas quasi molestiae laboriosam dolor. Nemo consequuntur ut aliquam sit soluta doloremque. Sint facilis sapiente voluptatem atque minima deserunt.",
+        "category": "Boots",
+        "default_price": "643.00",
+        "created_at": "2021-08-13T14:37:33.285Z",
+        "updated_at": "2021-08-13T14:37:33.285Z",
+        "features": [
+            {
+                "feature": "Buttons",
+                "value": "\"Brass\""
+            },
+            {
+                "feature": "Lens",
+                "value": "\"100% UV Protective\""
+            },
+            {
+                "feature": "Fair Trade Certified",
+                "value": null
+            }
+        ]
+    }
+
+]

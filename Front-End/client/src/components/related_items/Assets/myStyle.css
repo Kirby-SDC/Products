@@ -1,0 +1,27 @@
+ #slider{
+height: 100%;
+width: 100%;
+white-space: nowrap;
+overflow-x: scroll;
+scrollbar-width: none;
+scroll-behavior: smooth;
+padding: 30px;
+}
+
+#slider::-webkit-scrollbar{
+  display: none;
+}
+
+#slider-two{
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  display: flex;
+  }
+
+#slider-two::-webkit-scrollbar{
+    display: none;
+}

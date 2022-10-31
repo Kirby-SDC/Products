@@ -1,0 +1,1358 @@
+[
+    {
+        "product_id": "37330",
+        "results": [
+            {
+                "style_id": 221110,
+                "name": "Gold",
+                "original_price": "768.00",
+                "sale_price": null,
+                "default?": true,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1560095633-6803ba0461cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1281639": {
+                        "quantity": 41,
+                        "size": "XS"
+                    },
+                    "1281640": {
+                        "quantity": 50,
+                        "size": "S"
+                    },
+                    "1281641": {
+                        "quantity": 28,
+                        "size": "M"
+                    },
+                    "1281642": {
+                        "quantity": 58,
+                        "size": "L"
+                    },
+                    "1281643": {
+                        "quantity": 21,
+                        "size": "XL"
+                    },
+                    "1281644": {
+                        "quantity": 10,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221111,
+                "name": "Mint green",
+                "original_price": "768.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1552904219-f4b87efe8792?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1281645": {
+                        "quantity": 54,
+                        "size": "XS"
+                    },
+                    "1281646": {
+                        "quantity": 19,
+                        "size": "S"
+                    },
+                    "1281647": {
+                        "quantity": 10,
+                        "size": "M"
+                    },
+                    "1281648": {
+                        "quantity": 50,
+                        "size": "L"
+                    },
+                    "1281649": {
+                        "quantity": 28,
+                        "size": "XL"
+                    },
+                    "1281650": {
+                        "quantity": 41,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221112,
+                "name": "Cyan",
+                "original_price": "768.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1519862170344-6cd5e49cb996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1457968867385-9f877f3f2bce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1281651": {
+                        "quantity": 15,
+                        "size": "XS"
+                    },
+                    "1281652": {
+                        "quantity": 39,
+                        "size": "S"
+                    },
+                    "1281653": {
+                        "quantity": 16,
+                        "size": "M"
+                    },
+                    "1281654": {
+                        "quantity": 58,
+                        "size": "L"
+                    },
+                    "1281655": {
+                        "quantity": 19,
+                        "size": "XL"
+                    },
+                    "1281656": {
+                        "quantity": 47,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221113,
+                "name": "Green",
+                "original_price": "768.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1534550017194-5df79ed78967?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
+                    }
+                ],
+                "skus": {
+                    "1281657": {
+                        "quantity": 47,
+                        "size": "XS"
+                    },
+                    "1281658": {
+                        "quantity": 15,
+                        "size": "S"
+                    },
+                    "1281659": {
+                        "quantity": 14,
+                        "size": "M"
+                    },
+                    "1281660": {
+                        "quantity": 50,
+                        "size": "L"
+                    },
+                    "1281661": {
+                        "quantity": 48,
+                        "size": "XL"
+                    },
+                    "1281662": {
+                        "quantity": 44,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221114,
+                "name": "Black",
+                "original_price": "768.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1524604519054-2365ac11e431?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1459631836437-1c2824882e3f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1281663": {
+                        "quantity": 0,
+                        "size": "XS"
+                    },
+                    "1281664": {
+                        "quantity": 55,
+                        "size": "S"
+                    },
+                    "1281665": {
+                        "quantity": 26,
+                        "size": "M"
+                    },
+                    "1281666": {
+                        "quantity": 44,
+                        "size": "L"
+                    },
+                    "1281667": {
+                        "quantity": 45,
+                        "size": "XL"
+                    },
+                    "1281668": {
+                        "quantity": 51,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221115,
+                "name": "Lime",
+                "original_price": "768.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1519862170344-6cd5e49cb996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1470282312847-28b943046dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80"
+                    }
+                ],
+                "skus": {
+                    "1281669": {
+                        "quantity": 23,
+                        "size": "XS"
+                    },
+                    "1281670": {
+                        "quantity": 43,
+                        "size": "S"
+                    },
+                    "1281671": {
+                        "quantity": 9,
+                        "size": "M"
+                    },
+                    "1281672": {
+                        "quantity": 57,
+                        "size": "L"
+                    },
+                    "1281673": {
+                        "quantity": 25,
+                        "size": "XL"
+                    },
+                    "1281674": {
+                        "quantity": 50,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221116,
+                "name": "Indigo",
+                "original_price": "610.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1553830591-2f39e38a013c?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1562542132-8555e1b583f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=2057&q=80"
+                    }
+                ],
+                "skus": {
+                    "1281675": {
+                        "quantity": 30,
+                        "size": "XS"
+                    },
+                    "1281676": {
+                        "quantity": 2,
+                        "size": "S"
+                    },
+                    "1281677": {
+                        "quantity": 14,
+                        "size": "M"
+                    },
+                    "1281678": {
+                        "quantity": 7,
+                        "size": "L"
+                    },
+                    "1281679": {
+                        "quantity": 28,
+                        "size": "XL"
+                    },
+                    "1281680": {
+                        "quantity": 27,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221117,
+                "name": "Turquoise",
+                "original_price": "768.00",
+                "sale_price": "662.00",
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1562542132-8555e1b583f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1542818212-9899bafcb9db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1526&q=80"
+                    }
+                ],
+                "skus": {
+                    "1281681": {
+                        "quantity": 28,
+                        "size": "XS"
+                    },
+                    "1281682": {
+                        "quantity": 19,
+                        "size": "S"
+                    },
+                    "1281683": {
+                        "quantity": 0,
+                        "size": "M"
+                    },
+                    "1281684": {
+                        "quantity": 33,
+                        "size": "L"
+                    },
+                    "1281685": {
+                        "quantity": 30,
+                        "size": "XL"
+                    },
+                    "1281686": {
+                        "quantity": 57,
+                        "size": "XXL"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "product_id": "37955",
+        "results": [
+            {
+                "style_id": 225129,
+                "name": "Blue",
+                "original_price": "124.00",
+                "sale_price": null,
+                "default?": true,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1551489186-cf8726f514f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1522032238811-74bc59578599?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
+                    }
+                ],
+                "skus": {
+                    "1305228": {
+                        "quantity": 10,
+                        "size": "One Size"
+                    }
+                }
+            },
+            {
+                "style_id": 225130,
+                "name": "Lime",
+                "original_price": "71.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1558014356-f7c41bc744f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1305229": {
+                        "quantity": 36,
+                        "size": "One Size"
+                    }
+                }
+            },
+            {
+                "style_id": 225131,
+                "name": "Blue",
+                "original_price": "124.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1517720359744-6d12f8a09b10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1510867759970-3d2ca293be77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                    }
+                ],
+                "skus": {
+                    "1305230": {
+                        "quantity": 19,
+                        "size": "One Size"
+                    }
+                }
+            },
+            {
+                "style_id": 225132,
+                "name": "Red",
+                "original_price": "124.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/11/converse-fields.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1470434767159-ac7bf1b43351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                    }
+                ],
+                "skus": {
+                    "1305231": {
+                        "quantity": 6,
+                        "size": "One Size"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "product_id": "37458",
+        "results": [
+            {
+                "style_id": 221841,
+                "name": "Purple",
+                "original_price": "157.00",
+                "sale_price": null,
+                "default?": true,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1557760257-b02421ae77fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1553830591-2f39e38a013c?ixlib=rb-1.2.1&auto=format&fit=crop&w=2760&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285670": {
+                        "quantity": 0,
+                        "size": "XS"
+                    },
+                    "1285671": {
+                        "quantity": 37,
+                        "size": "S"
+                    },
+                    "1285672": {
+                        "quantity": 41,
+                        "size": "M"
+                    },
+                    "1285673": {
+                        "quantity": 3,
+                        "size": "L"
+                    },
+                    "1285674": {
+                        "quantity": 27,
+                        "size": "XL"
+                    },
+                    "1285675": {
+                        "quantity": 28,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221842,
+                "name": "Olive",
+                "original_price": "157.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1517278322228-3fe7a86cf6f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1473396413399-6717ef7c4093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285676": {
+                        "quantity": 55,
+                        "size": "XS"
+                    },
+                    "1285677": {
+                        "quantity": 22,
+                        "size": "S"
+                    },
+                    "1285678": {
+                        "quantity": 45,
+                        "size": "M"
+                    },
+                    "1285679": {
+                        "quantity": 7,
+                        "size": "L"
+                    },
+                    "1285680": {
+                        "quantity": 15,
+                        "size": "XL"
+                    },
+                    "1285681": {
+                        "quantity": 13,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221843,
+                "name": "Salmon",
+                "original_price": "157.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1517720359744-6d12f8a09b10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1503146695898-afdf8ce5d5a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285682": {
+                        "quantity": 5,
+                        "size": "XS"
+                    },
+                    "1285683": {
+                        "quantity": 0,
+                        "size": "S"
+                    },
+                    "1285684": {
+                        "quantity": 51,
+                        "size": "M"
+                    },
+                    "1285685": {
+                        "quantity": 49,
+                        "size": "L"
+                    },
+                    "1285686": {
+                        "quantity": 5,
+                        "size": "XL"
+                    },
+                    "1285687": {
+                        "quantity": 36,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221844,
+                "name": "Azure",
+                "original_price": "157.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1558118070-09ba9a9efb2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1553830591-d8632a99e6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1511&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285688": {
+                        "quantity": 48,
+                        "size": "XS"
+                    },
+                    "1285689": {
+                        "quantity": 4,
+                        "size": "S"
+                    },
+                    "1285690": {
+                        "quantity": 52,
+                        "size": "M"
+                    },
+                    "1285691": {
+                        "quantity": 16,
+                        "size": "L"
+                    },
+                    "1285692": {
+                        "quantity": 47,
+                        "size": "XL"
+                    },
+                    "1285693": {
+                        "quantity": 39,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221845,
+                "name": "Grey",
+                "original_price": "157.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285694": {
+                        "quantity": 25,
+                        "size": "XS"
+                    },
+                    "1285695": {
+                        "quantity": 43,
+                        "size": "S"
+                    },
+                    "1285696": {
+                        "quantity": 47,
+                        "size": "M"
+                    },
+                    "1285697": {
+                        "quantity": 25,
+                        "size": "L"
+                    },
+                    "1285698": {
+                        "quantity": 36,
+                        "size": "XL"
+                    },
+                    "1285699": {
+                        "quantity": 7,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221846,
+                "name": "Red",
+                "original_price": "157.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1554774853-d50f9c681ae2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1428790031246-698d71b6fe3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285700": {
+                        "quantity": 11,
+                        "size": "XS"
+                    },
+                    "1285701": {
+                        "quantity": 38,
+                        "size": "S"
+                    },
+                    "1285702": {
+                        "quantity": 14,
+                        "size": "M"
+                    },
+                    "1285703": {
+                        "quantity": 34,
+                        "size": "L"
+                    },
+                    "1285704": {
+                        "quantity": 4,
+                        "size": "XL"
+                    },
+                    "1285705": {
+                        "quantity": 12,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221847,
+                "name": "Black",
+                "original_price": "175.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1488554378835-f7acf46e6c98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1531091087823-cb600a47ab79?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285706": {
+                        "quantity": 59,
+                        "size": "XS"
+                    },
+                    "1285707": {
+                        "quantity": 5,
+                        "size": "S"
+                    },
+                    "1285708": {
+                        "quantity": 56,
+                        "size": "M"
+                    },
+                    "1285709": {
+                        "quantity": 57,
+                        "size": "L"
+                    },
+                    "1285710": {
+                        "quantity": 56,
+                        "size": "XL"
+                    },
+                    "1285711": {
+                        "quantity": 24,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221848,
+                "name": "Azure",
+                "original_price": "152.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1544701758-5241eb611a48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1422557379185-474fa15bf770?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285712": {
+                        "quantity": 37,
+                        "size": "XS"
+                    },
+                    "1285713": {
+                        "quantity": 13,
+                        "size": "S"
+                    },
+                    "1285714": {
+                        "quantity": 55,
+                        "size": "M"
+                    },
+                    "1285715": {
+                        "quantity": 51,
+                        "size": "L"
+                    },
+                    "1285716": {
+                        "quantity": 53,
+                        "size": "XL"
+                    },
+                    "1285717": {
+                        "quantity": 21,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 221849,
+                "name": "Salmon",
+                "original_price": "157.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1553830591-d8632a99e6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1535639818669-c059d2f038e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                    }
+                ],
+                "skus": {
+                    "1285718": {
+                        "quantity": 54,
+                        "size": "XS"
+                    },
+                    "1285719": {
+                        "quantity": 29,
+                        "size": "S"
+                    },
+                    "1285720": {
+                        "quantity": 59,
+                        "size": "M"
+                    },
+                    "1285721": {
+                        "quantity": 47,
+                        "size": "L"
+                    },
+                    "1285722": {
+                        "quantity": 4,
+                        "size": "XL"
+                    },
+                    "1285723": {
+                        "quantity": 22,
+                        "size": "XXL"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "product_id": "38296",
+        "results": [
+            {
+                "style_id": 227332,
+                "name": "Teal",
+                "original_price": "262.00",
+                "sale_price": null,
+                "default?": true,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1558014356-f7c41bc744f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1485646979142-d4abb57a876f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"
+                    }
+                ],
+                "skus": {
+                    "1317961": {
+                        "quantity": 23,
+                        "size": "XS"
+                    },
+                    "1317962": {
+                        "quantity": 8,
+                        "size": "S"
+                    },
+                    "1317963": {
+                        "quantity": 11,
+                        "size": "M"
+                    },
+                    "1317964": {
+                        "quantity": 34,
+                        "size": "L"
+                    },
+                    "1317965": {
+                        "quantity": 58,
+                        "size": "XL"
+                    },
+                    "1317966": {
+                        "quantity": 31,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 227333,
+                "name": "Tan",
+                "original_price": "262.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1422557379185-474fa15bf770?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1513531926349-466f15ec8cc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1317967": {
+                        "quantity": 53,
+                        "size": "XS"
+                    },
+                    "1317968": {
+                        "quantity": 50,
+                        "size": "S"
+                    },
+                    "1317969": {
+                        "quantity": 26,
+                        "size": "M"
+                    },
+                    "1317970": {
+                        "quantity": 39,
+                        "size": "L"
+                    },
+                    "1317971": {
+                        "quantity": 41,
+                        "size": "XL"
+                    },
+                    "1317972": {
+                        "quantity": 11,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 227334,
+                "name": "Olive",
+                "original_price": "378.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1422728221357-57980993ea99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1465877783223-4eba513e27c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1317973": {
+                        "quantity": 10,
+                        "size": "XS"
+                    },
+                    "1317974": {
+                        "quantity": 58,
+                        "size": "S"
+                    },
+                    "1317975": {
+                        "quantity": 38,
+                        "size": "M"
+                    },
+                    "1317976": {
+                        "quantity": 34,
+                        "size": "L"
+                    },
+                    "1317977": {
+                        "quantity": 44,
+                        "size": "XL"
+                    },
+                    "1317978": {
+                        "quantity": 22,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 227335,
+                "name": "Teal",
+                "original_price": "262.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1544376664-80b17f09d399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80"
+                    }
+                ],
+                "skus": {
+                    "1317979": {
+                        "quantity": 19,
+                        "size": "XS"
+                    },
+                    "1317980": {
+                        "quantity": 11,
+                        "size": "S"
+                    },
+                    "1317981": {
+                        "quantity": 46,
+                        "size": "M"
+                    },
+                    "1317982": {
+                        "quantity": 33,
+                        "size": "L"
+                    },
+                    "1317983": {
+                        "quantity": 7,
+                        "size": "XL"
+                    },
+                    "1317984": {
+                        "quantity": 15,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 227336,
+                "name": "Grey",
+                "original_price": "262.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1560095633-6803ba0461cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1492447105260-2e947425b5cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1317985": {
+                        "quantity": 48,
+                        "size": "XS"
+                    },
+                    "1317986": {
+                        "quantity": 56,
+                        "size": "S"
+                    },
+                    "1317987": {
+                        "quantity": 4,
+                        "size": "M"
+                    },
+                    "1317988": {
+                        "quantity": 9,
+                        "size": "L"
+                    },
+                    "1317989": {
+                        "quantity": 49,
+                        "size": "XL"
+                    },
+                    "1317990": {
+                        "quantity": 39,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 227337,
+                "name": "Cyan",
+                "original_price": "262.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1532543491484-63e29b3c1f5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1512521952190-7e1a47820ff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=978&q=80"
+                    }
+                ],
+                "skus": {
+                    "1317991": {
+                        "quantity": 57,
+                        "size": "XS"
+                    },
+                    "1317992": {
+                        "quantity": 0,
+                        "size": "S"
+                    },
+                    "1317993": {
+                        "quantity": 39,
+                        "size": "M"
+                    },
+                    "1317994": {
+                        "quantity": 2,
+                        "size": "L"
+                    },
+                    "1317995": {
+                        "quantity": 49,
+                        "size": "XL"
+                    },
+                    "1317996": {
+                        "quantity": 8,
+                        "size": "XXL"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "product_id": "38245",
+        "results": [
+            {
+                "style_id": 227007,
+                "name": "Turquoise",
+                "original_price": "839.00",
+                "sale_price": null,
+                "default?": true,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1530821875964-91927b611bad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1516199707327-5399434d0aa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1083&q=80"
+                    }
+                ],
+                "skus": {
+                    "1316191": {
+                        "quantity": 50,
+                        "size": "XS"
+                    },
+                    "1316192": {
+                        "quantity": 19,
+                        "size": "S"
+                    },
+                    "1316193": {
+                        "quantity": 43,
+                        "size": "M"
+                    },
+                    "1316194": {
+                        "quantity": 9,
+                        "size": "L"
+                    },
+                    "1316195": {
+                        "quantity": 14,
+                        "size": "XL"
+                    },
+                    "1316196": {
+                        "quantity": 46,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 227008,
+                "name": "Blue",
+                "original_price": "839.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1316197": {
+                        "quantity": 57,
+                        "size": "XS"
+                    },
+                    "1316198": {
+                        "quantity": 24,
+                        "size": "S"
+                    },
+                    "1316199": {
+                        "quantity": 10,
+                        "size": "M"
+                    },
+                    "1316200": {
+                        "quantity": 47,
+                        "size": "L"
+                    },
+                    "1316201": {
+                        "quantity": 57,
+                        "size": "XL"
+                    },
+                    "1316202": {
+                        "quantity": 21,
+                        "size": "XXL"
+                    }
+                }
+            },
+            {
+                "style_id": 227009,
+                "name": "Mint green",
+                "original_price": "839.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1430390456011-25ac9244999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1515110371136-7e393289662c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1656&q=80"
+                    }
+                ],
+                "skus": {
+                    "1316203": {
+                        "quantity": 18,
+                        "size": "XS"
+                    },
+                    "1316204": {
+                        "quantity": 12,
+                        "size": "S"
+                    },
+                    "1316205": {
+                        "quantity": 46,
+                        "size": "M"
+                    },
+                    "1316206": {
+                        "quantity": 9,
+                        "size": "L"
+                    },
+                    "1316207": {
+                        "quantity": 21,
+                        "size": "XL"
+                    },
+                    "1316208": {
+                        "quantity": 36,
+                        "size": "XXL"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "product_id": "37508",
+        "results": [
+            {
+                "style_id": 222164,
+                "name": "Teal",
+                "original_price": "643.00",
+                "sale_price": null,
+                "default?": true,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1532244769164-ff64ddeefa45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1459947727010-6267d2c1232f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    }
+                ],
+                "skus": {
+                    "1287678": {
+                        "quantity": 33,
+                        "size": "7"
+                    },
+                    "1287679": {
+                        "quantity": 18,
+                        "size": "7.5"
+                    },
+                    "1287680": {
+                        "quantity": 56,
+                        "size": "8"
+                    },
+                    "1287681": {
+                        "quantity": 49,
+                        "size": "8.5"
+                    },
+                    "1287682": {
+                        "quantity": 54,
+                        "size": "9"
+                    },
+                    "1287683": {
+                        "quantity": 29,
+                        "size": "9.5"
+                    },
+                    "1287684": {
+                        "quantity": 43,
+                        "size": "10"
+                    },
+                    "1287685": {
+                        "quantity": 16,
+                        "size": "10.5"
+                    },
+                    "1287686": {
+                        "quantity": 1,
+                        "size": "11"
+                    },
+                    "1287687": {
+                        "quantity": 55,
+                        "size": "11.5"
+                    },
+                    "1287688": {
+                        "quantity": 5,
+                        "size": "12"
+                    }
+                }
+            },
+            {
+                "style_id": 222165,
+                "name": "Purple",
+                "original_price": "643.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1544376664-80b17f09d399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1516199707327-5399434d0aa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1083&q=80"
+                    }
+                ],
+                "skus": {
+                    "1287689": {
+                        "quantity": 25,
+                        "size": "7"
+                    },
+                    "1287690": {
+                        "quantity": 31,
+                        "size": "7.5"
+                    },
+                    "1287691": {
+                        "quantity": 41,
+                        "size": "8"
+                    },
+                    "1287692": {
+                        "quantity": 51,
+                        "size": "8.5"
+                    },
+                    "1287693": {
+                        "quantity": 24,
+                        "size": "9"
+                    },
+                    "1287694": {
+                        "quantity": 54,
+                        "size": "9.5"
+                    },
+                    "1287695": {
+                        "quantity": 8,
+                        "size": "10"
+                    },
+                    "1287696": {
+                        "quantity": 7,
+                        "size": "10.5"
+                    },
+                    "1287697": {
+                        "quantity": 13,
+                        "size": "11"
+                    },
+                    "1287698": {
+                        "quantity": 25,
+                        "size": "11.5"
+                    },
+                    "1287699": {
+                        "quantity": 47,
+                        "size": "12"
+                    }
+                }
+            },
+            {
+                "style_id": 222166,
+                "name": "Tan",
+                "original_price": "643.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1554136920-a1df2909d8f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1556648202-80e751c133da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                    }
+                ],
+                "skus": {
+                    "1287700": {
+                        "quantity": 39,
+                        "size": "7"
+                    },
+                    "1287701": {
+                        "quantity": 58,
+                        "size": "7.5"
+                    },
+                    "1287702": {
+                        "quantity": 48,
+                        "size": "8"
+                    },
+                    "1287703": {
+                        "quantity": 50,
+                        "size": "8.5"
+                    },
+                    "1287704": {
+                        "quantity": 48,
+                        "size": "9"
+                    },
+                    "1287705": {
+                        "quantity": 24,
+                        "size": "9.5"
+                    },
+                    "1287706": {
+                        "quantity": 56,
+                        "size": "10"
+                    },
+                    "1287707": {
+                        "quantity": 36,
+                        "size": "10.5"
+                    },
+                    "1287708": {
+                        "quantity": 18,
+                        "size": "11"
+                    },
+                    "1287709": {
+                        "quantity": 54,
+                        "size": "11.5"
+                    },
+                    "1287710": {
+                        "quantity": 33,
+                        "size": "12"
+                    }
+                }
+            },
+            {
+                "style_id": 222167,
+                "name": "Teal",
+                "original_price": "643.00",
+                "sale_price": null,
+                "default?": false,
+                "photos": [
+                    {
+                        "thumbnail_url": "https://images.unsplash.com/photo-1548369735-f548cbe6a294?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+                        "url": "https://images.unsplash.com/photo-1498168208808-4c2706938a2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80"
+                    }
+                ],
+                "skus": {
+                    "1287711": {
+                        "quantity": 21,
+                        "size": "7"
+                    },
+                    "1287712": {
+                        "quantity": 33,
+                        "size": "7.5"
+                    },
+                    "1287713": {
+                        "quantity": 30,
+                        "size": "8"
+                    },
+                    "1287714": {
+                        "quantity": 23,
+                        "size": "8.5"
+                    },
+                    "1287715": {
+                        "quantity": 23,
+                        "size": "9"
+                    },
+                    "1287716": {
+                        "quantity": 1,
+                        "size": "9.5"
+                    },
+                    "1287717": {
+                        "quantity": 33,
+                        "size": "10"
+                    },
+                    "1287718": {
+                        "quantity": 25,
+                        "size": "10.5"
+                    },
+                    "1287719": {
+                        "quantity": 1,
+                        "size": "11"
+                    },
+                    "1287720": {
+                        "quantity": 29,
+                        "size": "11.5"
+                    },
+                    "1287721": {
+                        "quantity": 42,
+                        "size": "12"
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,3 +1,5 @@
 Front-End/config.js
 Front-End/node_modules
 Back-End/dataset
+Back-End/node_modules
+Back-End/.env

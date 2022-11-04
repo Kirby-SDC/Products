@@ -1,111 +1,74 @@
-DROP TABLE IF EXISTS public.products;
+DROP TABLE IF EXISTS products CASCADE;
+DROP TABLE IF EXISTS styles CASCADE;
+DROP TABLE IF EXISTS features CASCADE;
+DROP TABLE IF EXISTS skus CASCADE;
+DROP TABLE IF EXISTS photos CASCADE;
+DROP TABLE IF EXISTS photos CASCADE;
 
-CREATE TABLE IF NOT EXISTS public.products
-(
+CREATE TABLE IF NOT EXISTS products (
     id integer NOT NULL,
-    name text COLLATE pg_catalog."default" NOT NULL,
-    slogan text COLLATE pg_catalog."default",
-    description text COLLATE pg_catalog."default",
-    category text COLLATE pg_catalog."default",
-    default_price text COLLATE pg_catalog."default",
-    CONSTRAINT products_pkey PRIMARY KEY (id)
-)
+    "name" text NOT NULL,
+    slogan text,
+    "description" text,
+    category text,
+    default_price text,
+    PRIMARY KEY (id)
+);
 
-TABLESPACE pg_default;
+COPY products (id, "name", slogan, "description", category, default_price) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/product.csv' DELIMITER ',' CSV HEADER;
 
-ALTER TABLE IF EXISTS public.products
-    OWNER to zrendy;
 
-DROP TABLE IF EXISTS public.styles;
-
-CREATE TABLE IF NOT EXISTS public.styles
-(
+CREATE TABLE IF NOT EXISTS styles (
     id integer NOT NULL,
-    "productId" integer,
-    name text COLLATE pg_catalog."default",
+    productId integer,
+    "name" text,
     sale_price integer,
     original_price integer,
-    default_style integer,
-    CONSTRAINT styles_pkey PRIMARY KEY (id),
-    CONSTRAINT "productId" FOREIGN KEY ("productId")
-        REFERENCES public.products (id) MATCH SIMPLE
-        ON UPDATE NO ACTION
-        ON DELETE NO ACTION
-)
+    default_style boolean,
+    PRIMARY KEY (id),
+    FOREIGN KEY (productId) REFERENCES products (id)
+);
 
-TABLESPACE pg_default;
+COPY styles (id, productId, "name", sale_price, original_price, default_style) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/styles.csv' DELIMITER ',' CSV HEADER NULL 'null';
 
-ALTER TABLE IF EXISTS public.styles
-    OWNER to zrendy;
+CREATE INDEX stylesIndex ON styles(productId);
 
-DROP TABLE IF EXISTS public.features;
-
-CREATE TABLE IF NOT EXISTS public.features
-(
+CREATE TABLE IF NOT EXISTS features (
     id integer NOT NULL,
     product_id integer,
-    feature text COLLATE pg_catalog."default",
-    value text COLLATE pg_catalog."default",
-    CONSTRAINT features_pkey PRIMARY KEY (id),
-    CONSTRAINT product_id FOREIGN KEY (product_id)
-        REFERENCES public.products (id) MATCH SIMPLE
-        ON UPDATE NO ACTION
-        ON DELETE NO ACTION
-)
+    feature text,
+    value text,
+    PRIMARY KEY (id),
+    FOREIGN KEY (product_id) REFERENCES products (id)
+);
 
-TABLESPACE pg_default;
+COPY features (id, product_id, feature, "value") FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/features.csv' DELIMITER ',' CSV HEADER;
 
-ALTER TABLE IF EXISTS public.features
-    OWNER to zrendy;
+CREATE INDEX featuresIndex ON features(product_id);
 
-DROP TABLE IF EXISTS public.photos;
-
-CREATE TABLE IF NOT EXISTS public.photos
-(
+CREATE TABLE IF NOT EXISTS photos (
     id integer,
-    "styleId" integer,
-    url text COLLATE pg_catalog."default",
-    thumbnail_url text COLLATE pg_catalog."default",
-    CONSTRAINT "styleId" FOREIGN KEY ("styleId")
-        REFERENCES public.styles (id) MATCH SIMPLE
-        ON UPDATE NO ACTION
-        ON DELETE NO ACTION
-)
+    styleId integer,
+    "url" text,
+    thumbnail_url text,
+    PRIMARY KEY (id),
+    FOREIGN KEY (styleId) REFERENCES styles (id)
+);
 
-TABLESPACE pg_default;
+COPY photos (id, styleId, "url", thumbnail_url) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/photos.csv' DELIMITER ',' CSV HEADER;
 
-ALTER TABLE IF EXISTS public.photos
-    OWNER to zrendy;
+CREATE INDEX photosIndex ON photos(styleId);
 
-DROP TABLE IF EXISTS public.skus;
-
-CREATE TABLE IF NOT EXISTS public.skus
-(
+CREATE TABLE IF NOT EXISTS skus (
     id integer NOT NULL,
-    "styleId" integer,
-    size text COLLATE pg_catalog."default",
+    styleId integer,
+    size text,
     quantity integer,
-    CONSTRAINT "SKUs_pkey" PRIMARY KEY (id),
-    CONSTRAINT "styleId" FOREIGN KEY ("styleId")
-        REFERENCES public.styles (id) MATCH SIMPLE
-        ON UPDATE NO ACTION
-        ON DELETE NO ACTION
-        NOT VALID
-)
+    PRIMARY KEY (id),
+    FOREIGN KEY (styleId) REFERENCES styles (id)
+);
 
-TABLESPACE pg_default;
+COPY skus (id, styleId, size, quantity) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/skus.csv' DELIMITER ',' CSV HEADER;
 
-ALTER TABLE IF EXISTS public.skus
-    OWNER to zrendy;
-
-
-COPY public.products (id, name, slogan, description, category, default_price) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/product.csv' DELIMITER ',' CSV HEADER;
-
-COPY public.features (id, product_id, feature, value) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/features.csv' DELIMITER ',' CSV HEADER;
-
-COPY public.styles (id, \"productId\", name, sale_price, original_price, default_style) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/styles.csv' DELIMITER ',' CSV HEADER NULL 'null';
-
-COPY public.skus (id, styleId, size, quantity) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/skus.csv' DELIMITER ',' CSV HEADER;
-
-COPY public.photos (id, styleId, url, thumbnail_url) FROM '/Users/zrendy/HackReactor/SDC/Back-End/dataset/photos.csv' DELIMITER ',' CSV HEADER;
+CREATE INDEX skusIndex ON skus(styleId);
 

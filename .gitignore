@@ -3,3 +3,6 @@ Front-End/node_modules
 Back-End/dataset
 Back-End/node_modules
 Back-End/.env
+Back-End/products.pgsql
+Back-End/pg_db.pem
+pg_db.pem

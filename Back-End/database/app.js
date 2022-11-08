@@ -12,7 +12,7 @@ app.get('/products', (req, res) => {
   var limit = req.query.count || 5
   var offset = ((req.query.page - 1) * limit) || 0;
   client
-  .query(`SELECT * FROM products OFFSET $1 LIMIT $2`, [offset, limit])
+  .query(`SELECT id, name, slogan, "description", category, default_price, createdAt, updatedAt FROM products OFFSET $1 LIMIT $2`, [offset, limit])
   .then (result=> {
     res.send(result.rows)
   })
@@ -25,23 +25,41 @@ app.get('/products', (req, res) => {
 
 app.get('/products/:prodID', (req, res)=> {
   var product_id = req.params.prodID;
+  var queryStr = `SELECT id, name, slogan, description, category, default_price, createdAt as created_at, updatedAt as updated_at, ((SELECT json_agg(json_build_object(
+    'feature', feature,
+    'value', value)) FROM features where features.product_id = products.id)) as features FROM products WHERE id=$1`
   client
-  .query('SELECT * FROM products WHERE id=$1', [product_id])
-  .then (result => {
-    var product = result.rows[0];
-    client
-    .query('SELECT feature, value FROM features WHERE product_id=$1', [product_id])
-    .then((result)=> {
-      product.features=result.rows;
-      res.send(product);
-    })
-  })
+  // .query('SELECT id, name, slogan, description, category, default_price FROM products WHERE id=$1', [product_id])
+  // .then (result => {
+  //   var product = result.rows[0];
+  //   client
+  //   .query('SELECT feature, value FROM features WHERE product_id=$1', [product_id])
+  //   .then((result)=> {
+  //     product.features=result.rows;
+  //     res.send(product);
+  //   })
+  // })
+
+  .query(queryStr, [product_id])
+  .then(result=>
+    res.send(result.rows[0]))
   .catch(err => {
     if(err) {
       console.log('err@ GET /products/prodID')
     }
   })
 })
+
+app.get('/products/:prodID/related', (req,res)=> {
+  var product_id = req.params.prodID;
+  var queryStr = `SELECT json_agg(related_product_id) as t FROM related WHERE current_product_id=$1`
+  client
+  .query(queryStr, [product_id])
+  .then(result => {
+    res.send(result.rows[0].t)
+  })
+})
+
 
 app.get('/products/:prodID/styles', (req, res) => {
   var product_id = req.params.prodID;
@@ -60,7 +78,8 @@ app.get('/products/:prodID/styles', (req, res) => {
         'photos',(SELECT json_agg(json_build_object(
               'thumbnail_url', thumbnail_url,
               'url', url)) FROM photos where photos.styleId = styles.id),
-        'skus',(SELECT json_object_agg(
+
+        'skus',(SELECT jsonb_object_agg(
               id, (
                 SELECT json_build_object(
                 'quantity', quantity,
@@ -71,8 +90,7 @@ app.get('/products/:prodID/styles', (req, res) => {
         )
       ) from styles where productId = ${product_id} limit 5
     )
-  ) as t`
-
+  ) as t`;
   client
   .query(queryStr, [])
   .then(result => {

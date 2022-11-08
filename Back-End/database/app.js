@@ -8,6 +8,10 @@ app.listen(process.env.PORT, ()=> {
   console.log(`server listening on port ${process.env.PORT}`)
 });
 
+app.get('/loaderio-6d78d662e14f0e114b9e98c8084e4c50', (req,res)=> {
+  res.send('loaderio-6d78d662e14f0e114b9e98c8084e4c50');
+})
+
 app.get('/products', (req, res) => {
   var limit = req.query.count || 5
   var offset = ((req.query.page - 1) * limit) || 0;
